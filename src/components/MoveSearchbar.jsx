@@ -41,7 +41,7 @@ const MoveSearchbar = () => {
     }
 
     try {
-      const endpoint = `http://localhost:5000/proxy/tekken/${characterName}`;
+      const endpoint = `https://capstone-project-t8-be-production.up.railway.app/proxy/tekken/${characterName}`;
       const response = await fetch(endpoint);
       if (!response.ok) {
         throw new Error(`Error, status: ${response.status}`);
