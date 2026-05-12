@@ -5,16 +5,13 @@ const Guide = () => {
   const navigate = useNavigate();
   return (
     <Container fluid className="px-3">
-      <Row>
+      <Row className="justify-content-center">
         <h2 className="my-3 text-center">
           Here's a quick guide to Tekken's inputs!
         </h2>
-        <Col
-          className="d-flex justify-content-center flex-grow-1"
-          xs={8}
-          lg={8}>
+        <Col xs={12} lg={8} className="text-center">
           <div className="d-flex flex-column align-items-center g-4 my-4">
-            <div className="my-3 bg-body-tertiary w-100">
+            <div className="my-3 ">
               {" "}
               <img
                 src={inputs}
