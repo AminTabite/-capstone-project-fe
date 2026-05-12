@@ -11,7 +11,7 @@ const Guide = () => {
         </h2>
         <Col xs={12} lg={8} className="text-center">
           <div className="d-flex flex-column align-items-center g-4 my-4">
-            <div className="my-3 ">
+            <div className="my-3 bg-body-tertiary">
               {" "}
               <img
                 src={inputs}
