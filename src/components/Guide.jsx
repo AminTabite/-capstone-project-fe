@@ -19,7 +19,7 @@ const Guide = () => {
               <img
                 src={inputs}
                 alt="inputs guide"
-                style={{ maxHeight: "100%" }}
+                // style={{ maxHeight: "100%" }}
                 className="img-fluid"
               />
             </div>
